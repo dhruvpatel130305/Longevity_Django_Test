@@ -1,0 +1,6 @@
+NO_USER_FOUND = "No user found!"
+OTP_VALIDATION = "Entered otp may be wrong or may be expired."
+EMAIL_ERROR = "Entered email id doesn't exists."
+PASSWORD_ERROR = "Entered password is incorrect."
+EMAIL_SUCCESS = "OTP has been Sent to your Email Address, Please Verify your Inbox."
+EMAIL_MESSAGE = "Please click on the link verify otp."

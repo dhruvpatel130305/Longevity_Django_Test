@@ -1,0 +1,15 @@
+USERNAME_HELPTEXT = "Required. characters length between (2,50). Letters, digits and @/./+/-/_ only."
+UNIQUE_USERNAME = 'A user with this username already exists.'
+FIRSTNAME_ERROR = 'First name should contains characters only !'
+LASTNAME_ERROR = 'Last name should contains characters only !'
+USER_CREATED = 'Account created successfully!'
+DATE_TIME_FORMAT = '%Y-%m-%d %H:%M:%S.%f'
+USER_ALREADY_DELETED = "Your account is already deleted."
+USER_UPDATED_SUCCESSFULLY = "Account details updated successfully."
+USER_DELETED_SUCCESSFULLY = "Account deleted successfully."
+PASSWORD_SHORT_LENGTH_ERROR = "Password length must be upto 8 characters long."
+PASSWORD_LONG_LENGTH_ERROR = "Password length must not be greater than 12 characters"
+PASSWORD_CONTAINS_NO_DIGIT_ERROR = "Password must contain at least one numeric value"
+PASSWORD_CONTAINS_NO_UPPERCASE_ERROR = "Password must contain at least one uppercase letter"
+PASSWORD_CONTAINS_NO_LOWERCASE_ERROR = "Password must contain at least one lowercase letter"
+PASSWORD_CONTAINS_NO_SPECIAL_CHARACTER_ERROR = "Password must contain at least one of the symbols $@#"
