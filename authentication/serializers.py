@@ -26,7 +26,7 @@ class LoginWithOtpSerializer(serializers.Serializer):
     """
     Serializer for user login with otp
     """
-    otp = serializers.CharField(max_length=255, write_only=True)
+    otp = serializers.IntegerField(write_only=True)
 
     class Meta:
         fields = ['otp']

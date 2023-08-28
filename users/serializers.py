@@ -48,13 +48,3 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
         user.set_password(password)
         user.save()
         return user
-
-
-class UserDeleteSerializer(serializers.ModelSerializer):
-    """
-    Serializer to delete user
-    """
-
-    class Meta:
-        model = User
-        fields = []
