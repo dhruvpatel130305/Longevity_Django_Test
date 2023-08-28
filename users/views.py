@@ -1,3 +1,4 @@
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework import generics, status
 from rest_framework.exceptions import ValidationError
 from rest_framework.permissions import IsAuthenticated
@@ -32,6 +33,7 @@ class UserListCreateView(generics.ListCreateAPIView):
         return Response({'data': serializer.data},
                         status=status.HTTP_200_OK)
 
+    @swagger_auto_schema(request_body=UserRegistrationSerializer)
     def post(self, request, *args, **kwargs):
         """
         Post request to register user.
