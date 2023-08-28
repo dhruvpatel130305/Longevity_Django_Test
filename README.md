@@ -15,16 +15,6 @@ This is a brief description of my project.
 - Clone the repository.
 - Run `pip install -r requirements.txt`.
 
-## Migration
-- Run `python manage.py makemigrations`
-- Run `python manage.py migrate`
-
-## Usage
-- Run `python manage.py runserver` to start the application.
-
-## To run the test cases
-- Run `python manage.py test`
-
 ## env file
 - Create .env file and configure below keys
 - 1.DB_NAME - set database name
@@ -38,3 +28,16 @@ This is a brief description of my project.
 - 9.CELERY_BROKER_URL - set celery broker url
 - 10.EXPIRY_TIME - set expiry time for login otp in minutes
 - 11.SECRET_KEY  - set django secret key
+
+## Migration
+- Run `python manage.py makemigrations`
+- Run `python manage.py migrate`
+
+## Usage
+- Run `python manage.py runserver` to start the application.
+
+## To run celery command
+- Run `celery -A django_test worker -l info`
+
+## To run the test cases
+- Run `python manage.py test`
