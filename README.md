@@ -53,3 +53,6 @@ This is a brief description of my project.
 
 ## swagger link
 - http://ec2-54-167-17-31.compute-1.amazonaws.com/swagger/
+
+## Deployed server URL
+- ec2-54-167-17-31.compute-1.amazonaws.com
