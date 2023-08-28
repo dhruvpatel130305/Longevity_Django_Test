@@ -41,3 +41,15 @@ This is a brief description of my project.
 
 ## To run the test cases
 - Run `python manage.py test`
+
+## Github 
+- https://github.com/dhruvpatel130305/Longevity_Django_Test
+
+## API Documentation
+- https://docs.google.com/document/d/17_9-G_xo77paKlFi3yFkM_dw8fe1SyC5e5ztO7-hutg/edit
+
+## Postman collection link
+- https://documenter.getpostman.com/view/21272355/2s9Y5YTNgn
+
+## swagger link
+- http://ec2-54-167-17-31.compute-1.amazonaws.com/swagger/
